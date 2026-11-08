@@ -1,0 +1,49 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build
+frontend/dist/
+dist/
+build/
+
+# Cache
+.vite/
+.cache/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.old
+# Local password update script
+/Untitled.sql
